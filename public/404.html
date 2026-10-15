@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aether Expressive</title>
+    <script>
+      // GitHub Pages has no server-side rewrite, so a deep link like
+      // /AetherExpressive/anything returns 404 before React boots. Stash the
+      // requested path, send the browser to the SPA entry point, then restore
+      // it so the router can render the right route.
+      (function () {
+        var base = '/AetherExpressive/';
+        var path = window.location.pathname;
+        if (path.indexOf(base) === 0) {
+          sessionStorage.setItem('aether:path', path.slice(base.length));
+        }
+        window.location.replace(base);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
