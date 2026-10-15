@@ -20,4 +20,45 @@
   body {
     font-family: var(--font-sans);
   }
+
+  /* "Keyboard first: Visible 2px brand focus ring with 4px separation." */
+  :focus-visible {
+    outline: 2px solid var(--color-violet-600);
+    outline-offset: 4px;
+    border-radius: 4px;
+  }
+}
+
+/* Motion spec, applied once rather than per-button across the 24 specimens:
+     HOVER  -> scale 1.04 / lift 2px
+     PRESS  -> scale 0.96
+     400ms  -> cubic-bezier(0.34, 1.56, 0.64, 1)  (spring, with overshoot)
+
+   "Honor reduced motion: remove scale, lift and spring overshoot." and
+   "Do not shrink specimens or rely on hover on touch devices." */
+@layer base {
+  button {
+    transition: transform 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  button:active {
+    transform: scale(0.96);
+  }
+
+  @media (hover: hover) {
+    button:hover {
+      transform: scale(1.04) translateY(-2px);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    button {
+      transition: opacity 100ms linear;
+    }
+
+    button:hover,
+    button:active {
+      transform: none;
+    }
+  }
 }
