@@ -1,1 +1,23 @@
 @import 'tailwindcss';
+
+/* Self-hosted so the deployed site doesn't depend on a Google Fonts request.
+   Weights follow the Aether Expressive type scale:
+   Display 48/600 and H1 30/600 -> Outfit
+   Body 16/400 and Label 14/600 -> Plus Jakarta Sans
+   Code 12/400                  -> JetBrains Mono */
+@import '@fontsource/outfit/600.css';
+@import '@fontsource/plus-jakarta-sans/400.css';
+@import '@fontsource/plus-jakarta-sans/600.css';
+@import '@fontsource/jetbrains-mono/400.css';
+
+@theme {
+  --font-display: 'Outfit', system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+}

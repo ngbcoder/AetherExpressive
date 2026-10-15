@@ -20,8 +20,7 @@ export default function ALittleSofterALotMoreExpressive() {
 								</span>
 							</div>
 						</div>
-						<button className="flex flex-col items-start bg-[#F5F0FF] text-left py-1.5 px-3 mb-[30px] rounded-[9999px] border-0"
-							onClick={()=>alert("Pressed!")}>
+						<button className="flex flex-col items-start bg-[#F5F0FF] text-left py-1.5 px-3 mb-[30px] rounded-[9999px] border-0">
 							<span className="text-violet-800 text-xs font-bold" >
 								Design system / v1.0
 							</span>
@@ -68,26 +67,22 @@ Static specimens / v1.0
 								Library  /  Foundations
 							</span>
 							<div className="flex shrink-0 items-center bg-slate-50 py-[5px] px-1 gap-1.5 rounded-[9999px]">
-								<button className="flex flex-col shrink-0 items-start bg-[#EDE5FF] text-left py-[7px] px-3 rounded-[9999px] border-0"
-									onClick={()=>alert("Pressed!")}>
+								<button className="flex flex-col shrink-0 items-start bg-[#EDE5FF] text-left py-[7px] px-3 rounded-[9999px] border-0">
 									<span className="text-violet-500 text-xs font-bold" >
 										● Berry
 									</span>
 								</button>
-								<button className="flex flex-col shrink-0 items-start bg-slate-50 text-left py-[7px] px-3 rounded-[9999px] border-0"
-									onClick={()=>alert("Pressed!")}>
+								<button className="flex flex-col shrink-0 items-start bg-slate-50 text-left py-[7px] px-3 rounded-[9999px] border-0">
 									<span className="text-emerald-500 text-xs" >
 										● Tropical
 									</span>
 								</button>
-								<button className="flex flex-col shrink-0 items-start bg-slate-50 text-left py-[7px] px-3 rounded-[9999px] border-0"
-									onClick={()=>alert("Pressed!")}>
+								<button className="flex flex-col shrink-0 items-start bg-slate-50 text-left py-[7px] px-3 rounded-[9999px] border-0">
 									<span className="text-[#F97316] text-xs" >
 										● Sunset
 									</span>
 								</button>
-								<button className="flex flex-col shrink-0 items-start bg-slate-50 text-left py-[7px] px-3 rounded-[9999px] border-0"
-									onClick={()=>alert("Pressed!")}>
+								<button className="flex flex-col shrink-0 items-start bg-slate-50 text-left py-[7px] px-3 rounded-[9999px] border-0">
 									<span className="text-sky-600 text-xs" >
 										● Neon
 									</span>
@@ -103,7 +98,7 @@ Static specimens / v1.0
 								<span className="text-violet-800 text-xs" >
 									THE SYSTEM  /  00  /  AETHER EXPRESSIVE
 								</span>
-								<span className="text-slate-900 text-5xl font-bold" >
+								<span className="text-slate-900 text-5xl font-bold font-display" >
 									A little softer. A lot more expressive.
 								</span>
 								<span className="text-slate-600 text-base" >
@@ -112,33 +107,29 @@ Static specimens / v1.0
 							</div>
 							<div className="flex items-start self-stretch bg-[#EDE5FF] p-8 mb-[41px] ml-12 gap-8 rounded-[32px]">
 								<div className="flex flex-1 flex-col items-start gap-4">
-									<button className="flex flex-col items-start bg-white text-left py-1.5 px-3 rounded-[9999px] border-0"
-										onClick={()=>alert("Pressed!")}>
+									<button className="flex flex-col items-start bg-white text-left py-1.5 px-3 rounded-[9999px] border-0">
 										<span className="text-violet-800 text-xs font-bold" >
 											THE EXPRESSIVE TONAL ATELIER
 										</span>
 									</button>
-									<span className="text-slate-900 text-3xl font-bold" >
+									<span className="text-slate-900 text-3xl font-bold font-display" >
 										Playful by nature. Rigorous by design.
 									</span>
 									<span className="text-violet-800 text-base w-[649px]" >
 										Pill-first controls, generous breathing room and just enough bounce. Personality lives in the details; clarity stays at the center.
 									</span>
 									<div className="flex items-center self-stretch gap-2">
-										<button className="flex flex-col shrink-0 items-start bg-white text-left py-1.5 px-3 rounded-[9999px] border-0"
-											onClick={()=>alert("Pressed!")}>
+										<button className="flex flex-col shrink-0 items-start bg-white text-left py-1.5 px-3 rounded-[9999px] border-0">
 											<span className="text-violet-800 text-xs font-bold" >
 												4 themes
 											</span>
 										</button>
-										<button className="flex flex-col shrink-0 items-start bg-white text-left py-1.5 px-3 rounded-[9999px] border-0"
-											onClick={()=>alert("Pressed!")}>
+										<button className="flex flex-col shrink-0 items-start bg-white text-left py-1.5 px-3 rounded-[9999px] border-0">
 											<span className="text-violet-800 text-xs font-bold" >
 												10 families
 											</span>
 										</button>
-										<button className="flex flex-col shrink-0 items-start bg-white text-left py-1.5 px-3 rounded-[9999px] border-0"
-											onClick={()=>alert("Pressed!")}>
+										<button className="flex flex-col shrink-0 items-start bg-white text-left py-1.5 px-3 rounded-[9999px] border-0">
 											<span className="text-violet-800 text-xs font-bold" >
 												AA intent
 											</span>
@@ -150,7 +141,7 @@ Static specimens / v1.0
 										style={{
 											boxShadow: "0px 8px 24px #6D28D912"
 										}}
-										onClick={()=>alert("Pressed!")}>
+										>
 										<img
 											src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/kqsROjqLWR/k4dnh9gm_expires_30_days.png"} 
 											className="w-[21px] h-[21px] rounded-[9999px] object-fill"
@@ -160,8 +151,7 @@ Static specimens / v1.0
 										</span>
 									</button>
 									<div className="flex items-center self-stretch mx-5 gap-2.5">
-										<button className="flex flex-col shrink-0 items-start bg-white text-left py-[5px] px-3 rounded-[9999px] border-0"
-											onClick={()=>alert("Pressed!")}>
+										<button className="flex flex-col shrink-0 items-start bg-white text-left py-[5px] px-3 rounded-[9999px] border-0">
 											<span className="text-violet-800 text-xs font-bold" >
 												Rounded, not random
 											</span>
@@ -171,8 +161,7 @@ Static specimens / v1.0
 											className="w-[66px] h-10 rounded-[9999px] object-fill"
 										/>
 									</div>
-									<button className="flex items-center bg-[#EDE5FF] text-left py-3 px-6 gap-2.5 rounded-[9999px] border-0"
-										onClick={()=>alert("Pressed!")}>
+									<button className="flex items-center bg-[#EDE5FF] text-left py-3 px-6 gap-2.5 rounded-[9999px] border-0">
 										<span className="text-violet-800 text-sm font-bold" >
 											Explore the library
 										</span>
@@ -195,8 +184,7 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<span className="text-slate-900 text-2xl font-bold" >
 													Berry
 												</span>
-												<button className="flex flex-col shrink-0 items-start bg-[#EDE5FF] text-left py-[5px] px-3 rounded-[9999px] border-0"
-													onClick={()=>alert("Pressed!")}>
+												<button className="flex flex-col shrink-0 items-start bg-[#EDE5FF] text-left py-[5px] px-3 rounded-[9999px] border-0">
 													<span className="text-violet-800 text-xs font-bold" >
 														Default
 													</span>
@@ -209,56 +197,55 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-violet-500 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.500
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#8b5cf6
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-violet-600 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.600
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#7c3aed
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-purple-800 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.700
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#6d28d9
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-rose-500 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														accent.500
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#f43f5e
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-rose-600 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														accent.600
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#e11d48
 													</span>
 												</div>
 											</div>
-											<button className="flex items-center bg-[#EDE5FF] text-left py-[13px] px-3.5 ml-[22px] rounded-[9999px] border-0"
-												onClick={()=>alert("Pressed!")}>
+											<button className="flex items-center bg-[#EDE5FF] text-left py-[13px] px-3.5 ml-[22px] rounded-[9999px] border-0">
 												<img
 													src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/kqsROjqLWR/v8b2uymz_expires_30_days.png"} 
 													className="w-4 h-4 mr-3 rounded-[9999px] object-fill"
@@ -266,7 +253,7 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<span className="text-violet-800 text-xs font-bold mr-[233px]" >
 													Selected tonal container
 												</span>
-												<span className="text-violet-800 text-[10px]" >
+												<span className="text-violet-800 text-[10px] font-mono" >
 													#EDE5FF
 												</span>
 											</button>
@@ -276,8 +263,7 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<span className="text-slate-900 text-2xl font-bold" >
 													Tropical
 												</span>
-												<button className="flex flex-col shrink-0 items-start bg-emerald-100 text-left py-[5px] px-3 rounded-[9999px] border-0"
-													onClick={()=>alert("Pressed!")}>
+												<button className="flex flex-col shrink-0 items-start bg-emerald-100 text-left py-[5px] px-3 rounded-[9999px] border-0">
 													<span className="text-emerald-800 text-xs font-bold" >
 														Preset
 													</span>
@@ -290,56 +276,55 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-emerald-500 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.500
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#10b981
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-emerald-600 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.600
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#059669
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-emerald-700 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.700
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#047857
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-cyan-500 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														accent.500
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#06b6d4
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-cyan-600 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														accent.600
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#0891b2
 													</span>
 												</div>
 											</div>
-											<button className="flex items-center bg-emerald-100 text-left py-[13px] px-3.5 ml-[22px] rounded-[9999px] border-0"
-												onClick={()=>alert("Pressed!")}>
+											<button className="flex items-center bg-emerald-100 text-left py-[13px] px-3.5 ml-[22px] rounded-[9999px] border-0">
 												<img
 													src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/kqsROjqLWR/0rrmryjw_expires_30_days.png"} 
 													className="w-4 h-4 mr-3 rounded-[9999px] object-fill"
@@ -347,7 +332,7 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<span className="text-emerald-800 text-xs font-bold mr-[233px]" >
 													Selected tonal container
 												</span>
-												<span className="text-emerald-800 text-[10px]" >
+												<span className="text-emerald-800 text-[10px] font-mono" >
 													#D1FAE5
 												</span>
 											</button>
@@ -359,8 +344,7 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<span className="text-slate-900 text-2xl font-bold" >
 													Sunset
 												</span>
-												<button className="flex flex-col shrink-0 items-start bg-orange-100 text-left py-[5px] px-3 rounded-[9999px] border-0"
-													onClick={()=>alert("Pressed!")}>
+												<button className="flex flex-col shrink-0 items-start bg-orange-100 text-left py-[5px] px-3 rounded-[9999px] border-0">
 													<span className="text-orange-800 text-xs font-bold" >
 														Preset
 													</span>
@@ -373,56 +357,55 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-[#F97316] h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.500
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#f97316
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-orange-600 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.600
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#ea580c
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-orange-700 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.700
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#c2410c
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-pink-500 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														accent.500
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#ec4899
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-pink-600 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														accent.600
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#db2777
 													</span>
 												</div>
 											</div>
-											<button className="flex items-center bg-orange-100 text-left p-3.5 ml-[22px] rounded-[9999px] border-0"
-												onClick={()=>alert("Pressed!")}>
+											<button className="flex items-center bg-orange-100 text-left p-3.5 ml-[22px] rounded-[9999px] border-0">
 												<img
 													src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/kqsROjqLWR/x5f8raxs_expires_30_days.png"} 
 													className="w-4 h-4 mr-3 rounded-[9999px] object-fill"
@@ -430,7 +413,7 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<span className="text-orange-800 text-xs font-bold mr-[233px]" >
 													Selected tonal container
 												</span>
-												<span className="text-orange-800 text-[10px]" >
+												<span className="text-orange-800 text-[10px] font-mono" >
 													#FFEDD5
 												</span>
 											</button>
@@ -440,8 +423,7 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<span className="text-slate-900 text-2xl font-bold" >
 													Neon
 												</span>
-												<button className="flex flex-col shrink-0 items-start bg-sky-100 text-left py-[5px] px-3 rounded-[9999px] border-0"
-													onClick={()=>alert("Pressed!")}>
+												<button className="flex flex-col shrink-0 items-start bg-sky-100 text-left py-[5px] px-3 rounded-[9999px] border-0">
 													<span className="text-sky-800 text-xs font-bold" >
 														Preset
 													</span>
@@ -454,56 +436,55 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-sky-600 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.500
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#0284c7
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-sky-700 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.600
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#0369a1
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-sky-800 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														brand.700
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#075985
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-[#A855F7] h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														accent.500
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#a855f7
 													</span>
 												</div>
 												<div className="flex flex-col items-start w-[88px]">
 													<div className="self-stretch bg-purple-600 h-[52px] mb-[7px] rounded-[9999px]">
 													</div>
-													<span className="text-slate-600 text-[9px] mb-2" >
+													<span className="text-slate-600 text-[9px] mb-2 font-mono" >
 														accent.600
 													</span>
-													<span className="text-slate-900 text-[10px]" >
+													<span className="text-slate-900 text-[10px] font-mono" >
 														#9333ea
 													</span>
 												</div>
 											</div>
-											<button className="flex items-center bg-sky-100 text-left p-3.5 ml-[22px] rounded-[9999px] border-0"
-												onClick={()=>alert("Pressed!")}>
+											<button className="flex items-center bg-sky-100 text-left p-3.5 ml-[22px] rounded-[9999px] border-0">
 												<img
 													src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/kqsROjqLWR/2qarl09p_expires_30_days.png"} 
 													className="w-4 h-4 mr-3 rounded-[9999px] object-fill"
@@ -511,7 +492,7 @@ Exact preset values. The active theme changes brand and accent roles—not compo
 												<span className="text-sky-800 text-xs font-bold mr-[233px]" >
 													Selected tonal container
 												</span>
-												<span className="text-sky-800 text-[10px]" >
+												<span className="text-sky-800 text-[10px] font-mono" >
 													#E0F2FE
 												</span>
 											</button>
@@ -534,28 +515,28 @@ Choose soft containers for selection. Reserve strong brand tones for emphasis an
 												<div className="flex items-center self-stretch gap-3">
 													<div className="bg-slate-50 w-11 h-8 rounded-[9999px] border border-solid border-slate-200">
 													</div>
-													<span className="text-slate-600 text-[11px]" >
+													<span className="text-slate-600 text-[11px] font-mono" >
 														surface.canvas   #f8fafc
 													</span>
 												</div>
 												<div className="flex items-center self-stretch gap-3">
 													<div className="bg-white w-11 h-8 rounded-[9999px] border border-solid border-slate-200">
 													</div>
-													<span className="text-slate-600 text-[11px]" >
+													<span className="text-slate-600 text-[11px] font-mono" >
 														surface.card   #ffffff
 													</span>
 												</div>
 												<div className="flex items-center self-stretch gap-3">
 													<div className="bg-[#F5F0FF] w-11 h-8 rounded-[9999px] border border-solid border-slate-200">
 													</div>
-													<span className="text-slate-600 text-[11px]" >
+													<span className="text-slate-600 text-[11px] font-mono" >
 														brand.tint   #F5F0FF
 													</span>
 												</div>
 												<div className="flex items-center self-stretch gap-3">
 													<div className="bg-[#EDE5FF] w-11 h-8 rounded-[9999px] border border-solid border-slate-200">
 													</div>
-													<span className="text-slate-600 text-[11px]" >
+													<span className="text-slate-600 text-[11px] font-mono" >
 														brand.container   #EDE5FF
 													</span>
 												</div>
@@ -569,28 +550,28 @@ Choose soft containers for selection. Reserve strong brand tones for emphasis an
 												<div className="flex items-center self-stretch gap-[11px]">
 													<div className="bg-slate-900 w-11 h-8 rounded-[9999px]">
 													</div>
-													<span className="text-slate-300 text-[11px]" >
+													<span className="text-slate-300 text-[11px] font-mono" >
 														slate.900   #0f172a
 													</span>
 												</div>
 												<div className="flex items-center self-stretch gap-[11px]">
 													<div className="bg-slate-800 w-11 h-8 rounded-[9999px]">
 													</div>
-													<span className="text-slate-300 text-[11px]" >
+													<span className="text-slate-300 text-[11px] font-mono" >
 														slate.800   #1e293b
 													</span>
 												</div>
 												<div className="flex items-center self-stretch gap-[11px]">
 													<div className="bg-[#352754] w-11 h-8 rounded-[9999px]">
 													</div>
-													<span className="text-slate-300 text-[11px]" >
+													<span className="text-slate-300 text-[11px] font-mono" >
 														brand.container   #352754
 													</span>
 												</div>
 												<div className="flex items-center self-stretch gap-[11px]">
 													<div className="bg-violet-300 w-11 h-8 rounded-[9999px]">
 													</div>
-													<span className="text-slate-300 text-[11px]" >
+													<span className="text-slate-300 text-[11px] font-mono" >
 														brand.on-dark   #C4B5FD
 													</span>
 												</div>
@@ -632,7 +613,7 @@ Outfit for personality. Plus Jakarta Sans for clarity. JetBrains Mono for values
 												Outfit / 48 / 600
 											</span>
 										</div>
-										<span className="text-slate-900 text-5xl font-bold" >
+										<span className="text-slate-900 text-5xl font-bold font-display" >
 											Expressive by default
 										</span>
 									</div>
@@ -645,7 +626,7 @@ Outfit for personality. Plus Jakarta Sans for clarity. JetBrains Mono for values
 												Outfit / 30 / 600
 											</span>
 										</div>
-										<span className="text-slate-900 text-3xl font-bold" >
+										<span className="text-slate-900 text-3xl font-bold font-display" >
 											Soft edges. Clear intent.
 										</span>
 									</div>
@@ -684,7 +665,7 @@ Outfit for personality. Plus Jakarta Sans for clarity. JetBrains Mono for values
 												JetBrains Mono / 12 / 400
 											</span>
 										</div>
-										<span className="text-slate-900 text-xs" >
+										<span className="text-slate-900 text-xs font-mono" >
 											radius.control = 9999px
 										</span>
 									</div>
@@ -701,8 +682,7 @@ Rounded at every level. A smaller radius signals nesting, not a different design
 											<span className="text-violet-800 text-xs mb-[17px] ml-5" >
 												CONTROL / 9999px
 											</span>
-											<button className="flex flex-col items-start bg-violet-600 text-left py-3 px-6 mb-[18px] ml-5 rounded-[9999px] border-0"
-												onClick={()=>alert("Pressed!")}>
+											<button className="flex flex-col items-start bg-violet-600 text-left py-3 px-6 mb-[18px] ml-5 rounded-[9999px] border-0">
 												<span className="text-white text-sm font-bold" >
 													Always a pill
 												</span>
@@ -735,7 +715,7 @@ Rounded at every level. A smaller radius signals nesting, not a different design
 											</div>
 										</div>
 									</div>
-									<span className="text-slate-600 text-xs ml-7" >
+									<span className="text-slate-600 text-xs ml-7 font-mono" >
 										elevation.soft = 0 8px 24px #6D28D914 · brand-tinted, never hard-edged
 									</span>
 								</div>
@@ -748,8 +728,7 @@ A static motion specification—not an animated preview.
 								<div className="flex flex-col self-stretch bg-white p-7 gap-6 rounded-[32px]">
 									<div className="flex items-center self-stretch gap-4">
 										<div className="flex flex-col items-start bg-[#F5F0FF] w-[330px] py-[23px] px-6 gap-4 rounded-2xl">
-											<button className="flex flex-col items-start bg-[#EDE5FF] text-left py-[5px] px-3 rounded-[9999px] border-0"
-												onClick={()=>alert("Pressed!")}>
+											<button className="flex flex-col items-start bg-[#EDE5FF] text-left py-[5px] px-3 rounded-[9999px] border-0">
 												<span className="text-violet-800 text-xs font-bold" >
 													400ms / spring easing
 												</span>
@@ -758,7 +737,7 @@ A static motion specification—not an animated preview.
 												src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/kqsROjqLWR/diujk303_expires_30_days.png"} 
 												className="w-[282px] h-[120px] rounded-2xl object-fill"
 											/>
-											<span className="text-slate-600 text-[11px]" >
+											<span className="text-slate-600 text-[11px] font-mono" >
 												cubic-bezier(0.34,1.56,0.64,1)
 											</span>
 										</div>
@@ -772,12 +751,12 @@ A static motion specification—not an animated preview.
 														style={{
 															boxShadow: "0px 8px 24px #6D28D912"
 														}}
-														onClick={()=>alert("Pressed!")}>
+														>
 														<span className="text-white text-sm font-bold" >
 															Lift &amp; delight
 														</span>
 													</button>
-													<span className="text-slate-600 text-xs" >
+													<span className="text-slate-600 text-xs font-mono" >
 														scale 1.04 / lift 2px
 													</span>
 												</div>
@@ -785,13 +764,12 @@ A static motion specification—not an animated preview.
 													<span className="text-violet-800 text-xs mb-[17px]" >
 														PRESS
 													</span>
-													<button className="flex flex-col items-start bg-purple-800 text-left py-3 px-6 mb-[18px] rounded-[9999px] border-0"
-														onClick={()=>alert("Pressed!")}>
+													<button className="flex flex-col items-start bg-purple-800 text-left py-3 px-6 mb-[18px] rounded-[9999px] border-0">
 														<span className="text-white text-sm font-bold" >
 															Gentle feedback
 														</span>
 													</button>
-													<span className="text-slate-600 text-xs" >
+													<span className="text-slate-600 text-xs font-mono" >
 														scale 0.96
 													</span>
 												</div>
